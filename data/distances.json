@@ -414,7 +414,13 @@
             "coords": [
                 26,
                 17
-            ]
+            ],
+            "connected_to": {
+                "Panepistimio": 0.6,
+                "Akropoli": 0.9,
+                "Evangelismos": 1,
+                "Monastiraki": 0.9
+            }
         },
         {
             "name": "Evangelismos",
