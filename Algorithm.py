@@ -81,7 +81,7 @@ def a_star_algorithm(start, end):
             # child not in close list
                 # Create the f, g, and h values
             child.g = get_distance_g(current_node.name, child.name)
-            child.h = get_distance_h(current_node.name, child.name)
+            child.h = get_distance_h(start_node.name, child.name)
             child.f = child.g + child.h
             print(f"{child.name} is not in close list. G: {child.g} H: {child.h}\n")
 

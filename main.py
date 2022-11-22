@@ -7,4 +7,4 @@ if __name__ == "__main__":
     settings.init()
     # print(get_neighbours("Victoria"))
     # print(get_distance_g("Victoria", "Kato Patissia"))
-    print(a_star_algorithm("Piraeus", "Evangelismos"))
+    print(a_star_algorithm("Perissos", "Eleonas"))

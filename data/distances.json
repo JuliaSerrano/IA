@@ -85,7 +85,10 @@
         },
         {
             "name": "Monastiraki",
-            "line": [1,3],
+            "line": [
+                1,
+                3
+            ],
             "coords": [
                 37.976262980591805,
                 23.72568997118543
@@ -99,7 +102,10 @@
         },
         {
             "name": "Omonia",
-            "line": [1,2],
+            "line": [
+                1,
+                2
+            ],
             "coords": [
                 37.9843605609949,
                 23.72876710002178
@@ -115,8 +121,8 @@
             "name": "Victoria",
             "line": 1,
             "coords": [
-                23,
-                17
+                37.9934758223102,
+                23.73055881564626
             ],
             "connected_to": {
                 "Attiki": 1,
@@ -125,10 +131,13 @@
         },
         {
             "name": "Attiki",
-            "line": [1,2],
+            "line": [
+                1,
+                2
+            ],
             "coords": [
-                26,
-                17
+                37.99990148545503,
+                23.722984257364093
             ],
             "connected_to": {
                 "Aghios Nikolaos": 1,
@@ -141,8 +150,8 @@
             "name": "Aghios Nikolaos",
             "line": 1,
             "coords": [
-                28,
-                19
+                38.00725648767131,
+                23.72759765688401
             ],
             "connected_to": {
                 "Kato Patissia": 0.5,
@@ -153,8 +162,8 @@
             "name": "Kato Patissia",
             "line": 1,
             "coords": [
-                30,
-                21
+                38.01158460394004,
+                23.72871345583124
             ],
             "connected_to": {
                 "Aghios Nikolaos": 0.5,
@@ -165,8 +174,8 @@
             "name": "Aghios Eleftherios",
             "line": 1,
             "coords": [
-                33,
-                21
+                38.020189357145796,
+                23.7319321066545
             ],
             "connected_to": {
                 "Ano Patissia": 0.5,
@@ -177,8 +186,8 @@
             "name": "Ano Patissia",
             "line": 1,
             "coords": [
-                36,
-                21
+                38.0239081912992,
+                23.735880318322252
             ],
             "connected_to": {
                 "Perissos": 1.3,
@@ -189,8 +198,8 @@
             "name": "Perissos",
             "line": 1,
             "coords": [
-                38,
-                19
+                38.03315374719891,
+                23.744506302507975
             ],
             "connected_to": {
                 "Ano Patissia": 1.3,
@@ -201,8 +210,8 @@
             "name": "Pefkakia",
             "line": 1,
             "coords": [
-                40,
-                17
+                38.03717612932431,
+                23.750557366056025
             ],
             "connected_to": {
                 "Nea Ionia": 0.7,
@@ -213,8 +222,8 @@
             "name": "Nea Ionia",
             "line": 1,
             "coords": [
-                42,
-                15
+                38.04178976613285,
+                23.755127850225914
             ],
             "connected_to": {
                 "Iraklio": 1.1,
@@ -225,8 +234,8 @@
             "name": "Iraklio",
             "line": 1,
             "coords": [
-                42,
-                15
+                38.04630492521177,
+                23.76614516933418
             ],
             "connected_to": {
                 "Irini": 1.5,
@@ -237,8 +246,8 @@
             "name": "Irini",
             "line": 1,
             "coords": [
-                42,
-                15
+                38.04393683219673,
+                23.782670313171103
             ],
             "connected_to": {
                 "Neratziotissa": 0.9,
@@ -249,8 +258,8 @@
             "name": "Neratziotissa",
             "line": 1,
             "coords": [
-                42,
-                15
+                38.045305617391854,
+                23.793163114836013
             ],
             "connected_to": {
                 "Irini": 0.9,
@@ -261,8 +270,8 @@
             "name": "Maroussi",
             "line": 1,
             "coords": [
-                42,
-                15
+                38.05643238459342,
+                23.805179411230647
             ],
             "connected_to": {
                 "Neratziotissa": 1.6,
@@ -273,8 +282,8 @@
             "name": "KAT",
             "line": 1,
             "coords": [
-                42,
-                15
+                38.06596947413497,
+                23.80396705274463
             ],
             "connected_to": {
                 "Kifissia": 0.9,
@@ -285,8 +294,8 @@
             "name": "Kifissia",
             "line": 1,
             "coords": [
-                28,
-                19
+                38.07390735631159,
+                23.808365044239874
             ],
             "connected_to": {
                 "KAT": 0.9
@@ -296,124 +305,176 @@
             "name": "Aghios Antonios",
             "line": 2,
             "coords": [
-                1,
-                5
-            ]
+                38.006821699276344,
+                23.699470269333386
+            ],
+            "connected_to": {
+                "Sepolia": 1.3
+            }
         },
         {
             "name": "Sepolia",
             "line": 2,
             "coords": [
-                3,
-                7
-            ]
+                38.00287455589566,
+                23.713538872584007
+            ],
+            "connected_to": {
+                "Aghios Antonios": 1.3,
+                "Attiki": 0.8
+            }
         },
-
         {
             "name": "Larissa Station",
             "line": 2,
             "coords": [
-                5,
-                9
-            ]
+                37.99198565433105,
+                23.721112360694693
+            ],
+            "connected_to": {
+                "Metaxourghio": 0.7,
+                "Attiki": 0.8
+            }
         },
         {
             "name": "Metaxourghio",
             "line": 2,
             "coords": [
-                7,
-                11
-            ]
+                37.98648946311481,
+                23.72123037788999
+            ],
+            "connected_to": {
+                "Larissa Station": 0.7,
+                "Omonia": 0.6
+            }
         },
- 
         {
             "name": "Panepistimio",
             "line": 2,
             "coords": [
-                9,
-                13
-            ]
+                37.980527744107384,
+                23.733085741741967
+            ],
+            "connected_to": {
+                "Syntagma": 0.6,
+                "Omonia": 0.6
+            }
         },
-
-
         {
             "name": "Akropoli",
             "line": 2,
             "coords": [
-                11,
-                15
-            ]
+                37.968721265738026,
+                23.72955595467285
+            ],
+            "connected_to": {
+                "Syntagma": 0.9,
+                "Sygrou-Fix": 0.6
+            }
         },
         {
             "name": "Sygrou-Fix",
             "line": 2,
             "coords": [
-                13,
-                17
-            ]
+                37.964289117405485,
+                23.726573338249956
+            ],
+            "connected_to": {
+                "Neos Kosmos": 0.8,
+                "Akropoli": 0.6
+            }
         },
         {
             "name": "Neos Kosmos",
             "line": 2,
             "coords": [
-                16,
-                17
-            ]
+                37.957792661080205,
+                23.728558172926768
+            ],
+            "connected_to": {
+                "Aghios Ioannis": 0.5,
+                "Sygrou-Fix": 0.8
+            }
         },
         {
             "name": "Aghios Ioannis",
             "line": 2,
             "coords": [
-                20,
-                17
-            ]
+                37.956701403021455,
+                23.734684338317823
+            ],
+            "connected_to": {
+                "Neos Kosmos": 0.5,
+                "Dafni": 0.9
+            }
         },
         {
             "name": "Dafni",
             "line": 2,
             "coords": [
-                20,
-                17
-            ]
+                37.949375173533454,
+                23.73729144547641
+            ],
+            "connected_to": {
+                "Aghios Ioannis": 0.9,
+                "Aghios Dimitrios": 1
+            }
         },
         {
             "name": "Aghios Dimitrios",
             "line": 2,
             "coords": [
-                23,
-                17
-            ]
+                37.940516735656274,
+                23.740746130692287
+            ],
+            "connected_to": {
+                "Dafni": 1
+            }
         },
         {
             "name": "Egaleo",
             "line": 3,
             "coords": [
-                1,
-                5
-            ]
+                37.99154510990853,
+                23.677323900021825
+            ],
+            "connected_to": {
+                "Eleonas": 1.1
+            }
         },
         {
             "name": "Eleonas",
             "line": 3,
             "coords": [
-                3,
-                7
-            ]
+                37.988067213316974,
+                23.694262951628236
+            ],
+            "connected_to": {
+                "Kerameikos": 1.8,
+                "Egaleo": 1.1
+            }
         },
         {
             "name": "Kerameikos",
             "line": 3,
             "coords": [
-                9,
-                13
-            ]
+                37.97882865529681,
+                23.711474016317744
+            ],
+            "connected_to": {
+                "Eleonas": 1.8,
+                "Monastiraki": 1.3
+            }
         },
         {
             "name": "Syntagma",
-            "line": [2,3],
+            "line": [
+                2,
+                3
+            ],
             "coords": [
-                26,
-                17
+                37.97480766939125,
+                23.735765128857498
             ],
             "connected_to": {
                 "Panepistimio": 0.6,
@@ -426,121 +487,180 @@
             "name": "Evangelismos",
             "line": 3,
             "coords": [
-                16,
-                17
-            ]
+                37.97659653403513,
+                23.747379407290307
+            ],
+            "connected_to": {
+                "Syntagma": 1,
+                "Megaro Moussikis": 0.6
+            }
         },
         {
             "name": "Megaro Moussikis",
             "line": 3,
             "coords": [
-                11,
-                15
-            ]
+                37.97950685685658,
+                23.75299812885772
+            ],
+            "connected_to": {
+                "Ambelokipi": 0.9,
+                "Evangelismos": 0.6
+            }
         },
         {
             "name": "Ambelokipi",
             "line": 3,
             "coords": [
-                13,
-                17
-            ]
+                37.987193685578276,
+                23.757021442381106
+            ],
+            "connected_to": {
+                "Panormou": 0.9,
+                "Megaro Moussikis": 0.9
+            }
         },
         {
             "name": "Panormou",
             "line": 3,
             "coords": [
-                20,
-                17
-            ]
+                37.99330705695366,
+                23.76345874402124
+            ],
+            "connected_to": {
+                "Ambelokipi": 0.9,
+                "Katehaki": 1.1
+            }
         },
         {
             "name": "Katehaki",
             "line": 3,
             "coords": [
-                23,
-                17
-            ]
+                37.99315486306929,
+                23.776150957075984
+            ],
+            "connected_to": {
+                "Ethniki Amyna": 1.1,
+                "Panormou": 1.1
+            }
         },
         {
             "name": "Ethniki Amyna",
             "line": 3,
             "coords": [
-                26,
-                17
-            ]
+                38.00003516158723,
+                23.785694798943457
+            ],
+            "connected_to": {
+                "Holargos": 0.9,
+                "Katehaki": 1.1
+            }
         },
         {
             "name": "Holargos",
             "line": 3,
             "coords": [
-                28,
-                19
-            ]
+                38.00458841460441,
+                23.794737618844895
+            ],
+            "connected_to": {
+                "Nomismatokopio": 1.1,
+                "Ethniki Amyna": 0.9
+            }
         },
         {
             "name": "Nomismatokopio",
             "line": 3,
             "coords": [
-                28,
-                19
-            ]
+                38.00934746923638,
+                23.805682441974323
+            ],
+            "connected_to": {
+                "Holargos": 1.1,
+                "Aghia Paraskevi": 1.1
+            }
         },
         {
             "name": "Aghia Paraskevi",
             "line": 3,
             "coords": [
-                28,
-                19
-            ]
+                38.017310444001595,
+                23.812306087890466
+            ],
+            "connected_to": {
+                "Nomismatokopio": 1.1,
+                "Halandri": 0.9
+            }
         },
         {
             "name": "Halandri",
             "line": 3,
             "coords": [
-                28,
-                19
-            ]
+                38.02168257207892,
+                23.821203386514345
+            ],
+            "connected_to": {
+                "Doukissis Plakentias": 1.1,
+                "Aghia Paraskevi": 0.9
+            }
         },
         {
             "name": "Doukissis Plakentias",
             "line": 3,
             "coords": [
-                28,
-                19
-            ]
+                38.024755563182346,
+                23.834332882825404
+            ],
+            "connected_to": {
+                "Halandri": 1.1,
+                "Pallini": 3.8
+            }
         },
         {
             "name": "Pallini",
             "line": 3,
             "coords": [
-                28,
-                19
-            ]
+                38.00598093364229,
+                23.86963147874632
+            ],
+            "connected_to": {
+                "Paiania Kantza": 2.5,
+                "Doukissis Plakentias": 3.8
+            }
         },
         {
             "name": "Paiania-Kantza",
             "line": 3,
             "coords": [
-                28,
-                19
-            ]
+                37.983832999100784,
+                23.86982635398848
+            ],
+            "connected_to": {
+                "Pallini": 2.5,
+                "Koropi": 8.2
+            }
         },
         {
             "name": "Koropi",
             "line": 3,
             "coords": [
-                28,
-                19
-            ]
+                37.913448330347904,
+                23.89593551617037
+            ],
+            "connected_to": {
+                "Airport": 5,
+                "Paiania-Kantza": 8.2
+            }
         },
         {
             "name": "Airport",
             "line": 3,
             "coords": [
-                28,
-                19
-            ]
+                37.93693543110648,
+                23.944783683486808
+            ],
+            "connected_to": {
+                "Koropi": 5
+            }
         }
     ]
 }
