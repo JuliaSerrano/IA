@@ -64,3 +64,12 @@ def get_neighbours(metro_station):
             neighbours.append(station["connected_to"])
 
     return neighbours[0]
+
+
+def get_line(metro_station):
+    '''
+    method to obtain the metro line of given station
+    '''
+    for station in settings.data["stations"]:
+        if station["name"] == metro_station:
+            return station["line"]
