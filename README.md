@@ -4,4 +4,6 @@ Proyecto de la asignatura de Inteligencia Artificial que consiste en obtener el 
 
 Más información acerca del proyecto en la [Memoria](Memoria.pdf).
 
-![Mapa Metro](mapa-metroatenas.png)
+<div align = "center">
+    <img src = "https://github.com/JuliaSerrano/IA/blob/main/mapa-metroatenas.png"/>
+</div>
